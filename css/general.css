@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-size: 100%;
+    font-family: "Tahoma", Tahoma, Times New Romans, arial;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/pac-man-8-bit.gif);
+    background-color: black;
+    background-repeat: repeat
+    background position: top center;
+    background-size: 9rem;
+}
+
+header {
+    overflow: hidden;
+    background-color: gold;
+    padding: 1rem -0.5%
+}
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    background-color: gold;
+    padding: .2rem 5%;
+}
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+p strong {
+    font-family: sans-serif, "sans-serif", serif;
+    color: gold;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 3.25rem;
+    background-color: rgba(255, 215, 0, 0.9);
+    text-transform: uppercase; 
+    letter-spacing: -.1rem;
+    margin: rem 0;
+    padding: .25rem 5%;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .4);
+}
+
+.dropcap:first-letter {
+
+    font-size: 5rem;
+    font-weight: light;
+    float: left;
+    margin: 1rem 0.4rem 0.9rem 0;
+    color: gold;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .2);
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 1.5rem;
+}
+
+article {
+    margin: 0;
+    padding 1rem 5%;
+    overflow: hidden;
+}
+
+article p: first-child {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: .75rem 0 1.5rem;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 0 0 15%;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: .875rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 1.5rem 0 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 2rem;
+    color: gold;
+    float: left;
+    margin: .0rem 0 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 1rem;
+    position:: absolute;
+    color: gold;
+    margin: .2rem 0 0;
+}
+
+
+h2 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    background-color: rgba(255, 215, 0, .8);
+    letter-spacing: 0.5rem;
+    padding: .25rem 5%;
+    margin: 0 0.5rem;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .2);
+}
+    
+h3 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    background-color: rgba(255, 215, 0, .8);
+    letter-spacing: 0.5rem;
+    padding: .25rem 5%;
+    margin: 0 0.5rem;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .2);
+}
+    
+h4 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    background-color: rgba(255, 215, 0, .8);
+    letter-spacing: 0.5rem;
+    padding: .25rem 5%;
+    margin: 0 0.5rem;
+    text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .2);
+}
+
+footer {
+    background-color: gold;
+    overflow: hidden;
+
+}
+
+footer p {
+    font-size: .75rem;
+    margin: .5rem 5% 5rem;
+}
+
+footer a{
+    color:black;
+}
