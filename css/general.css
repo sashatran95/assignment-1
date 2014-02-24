@@ -129,7 +129,7 @@ blockquote p:before {
 blockquote p:after {
     content: "”";
     font-size: 1rem;
-    position:: absolute;
+    position: absolute;
     color: gold;
     margin: .2rem 0 0;
 
