@@ -70,7 +70,7 @@ h1 {
     background-color: rgba(255, 215, 0, 0.9);
     text-transform: uppercase; 
     letter-spacing: -.1rem;
-    margin: 1rem 0;
+    margin: ≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥≥ 1rem 0;
     padding: .25rem 5%;
     text-shadow: .15rem .15rem .05rem rgba(0, 0, 0, .4);
 }
@@ -178,4 +178,9 @@ footer p {
 
 footer a{
     color:black;
+}
+
+ol strong {
+    font-family: sans-serif, "sans-serif", serif;
+    color: gold;
 }
